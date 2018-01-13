@@ -1,0 +1,19 @@
+<package format="2">
+  <name>single_lwr_torque</name>
+  <version>0.1.0</version>
+  <description>The single_lwr_torque package to control everything that needs to launched. Edited from single_lwr_launch to test torque control on the KUKA robot.</description>
+
+  <maintainer email="marco.esposito@tum.de">Marco Esposito</maintainer>
+  <maintainer email="d.caporale@centropiaggio.unipi.it">Danilo Caporale</maintainer>
+  
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>single_lwr_robot</exec_depend>
+  <exec_depend>single_lwr_moveit</exec_depend>
+
+  <export>
+  </export>
+</package>
